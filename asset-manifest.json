@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/dashboard/static/css/main.5ee09492.chunk.css",
+    "main.js": "/dashboard/static/js/main.870fe029.chunk.js",
+    "main.js.map": "/dashboard/static/js/main.870fe029.chunk.js.map",
+    "runtime-main.js": "/dashboard/static/js/runtime-main.8cd2f4b7.js",
+    "runtime-main.js.map": "/dashboard/static/js/runtime-main.8cd2f4b7.js.map",
+    "static/css/2.04b52f37.chunk.css": "/dashboard/static/css/2.04b52f37.chunk.css",
+    "static/js/2.ed6f0546.chunk.js": "/dashboard/static/js/2.ed6f0546.chunk.js",
+    "static/js/2.ed6f0546.chunk.js.map": "/dashboard/static/js/2.ed6f0546.chunk.js.map",
+    "index.html": "/dashboard/index.html",
+    "static/css/2.04b52f37.chunk.css.map": "/dashboard/static/css/2.04b52f37.chunk.css.map",
+    "static/css/main.5ee09492.chunk.css.map": "/dashboard/static/css/main.5ee09492.chunk.css.map",
+    "static/js/2.ed6f0546.chunk.js.LICENSE.txt": "/dashboard/static/js/2.ed6f0546.chunk.js.LICENSE.txt",
+    "static/media/line-awesome.min.css": "/dashboard/static/media/la-solid-900.a8130346.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8cd2f4b7.js",
+    "static/css/2.04b52f37.chunk.css",
+    "static/js/2.ed6f0546.chunk.js",
+    "static/css/main.5ee09492.chunk.css",
+    "static/js/main.870fe029.chunk.js"
+  ]
+}
