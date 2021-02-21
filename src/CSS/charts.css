@@ -1,0 +1,29 @@
+/* "#0077FF",
+"#B2D6FF", */
+
+.charts {
+  display: flex;
+  flex-direction: column;
+}
+.charts__bar {
+  display: flex;
+  flex-direction: row;
+}
+.charts__bar .progress {
+  border-radius: 2px !important;
+  position: relative;
+  background: #fff;
+}
+
+.charts__bar .progress .progress-bar {
+  position: absolute;
+  bottom: 15px;
+}
+
+.progress__label {
+  bottom: 5px;
+  position: absolute;
+  font-size: 0.86em;
+  font-weight: 600;
+  color: #8e9aa3;
+}

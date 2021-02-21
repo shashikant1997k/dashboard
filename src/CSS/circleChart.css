@@ -1,0 +1,99 @@
+.circleCh__progress {
+  width: 92px;
+  height: 92px !important;
+  float: left;
+  line-height: 92px;
+  background: none;
+  box-shadow: none;
+  position: relative;
+}
+
+.circleCh__progress:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.cl_b2d6ff::after {
+  border: 10px solid #b2d6ff;
+}
+.cl_f78ab6:after {
+  border: 10px solid #f78ab6;
+}
+.circleCh__progress > span {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+.circleCh__progress .circleCh__progress-left {
+  left: 0;
+}
+
+.circleCh__progress .circleCh__progress-bar {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border-width: 10px;
+  border-style: solid;
+  position: absolute;
+  top: 0;
+}
+
+.circleCh__progress .circleCh__progress-left .circleCh__progress-bar {
+  left: 100%;
+  border-top-right-radius: 80px;
+  border-bottom-right-radius: 80px;
+  border-left: 0;
+  -webkit-transform-origin: center left;
+  transform-origin: center left;
+}
+
+.circleCh__progress .circleCh__progress-right {
+  right: 0;
+}
+
+.circleCh__progress .circleCh__progress-right .circleCh__progress-bar {
+  left: -100%;
+  border-top-left-radius: 80px;
+  border-bottom-left-radius: 80px;
+  border-right: 0;
+  -webkit-transform-origin: center right;
+  transform-origin: center right;
+  animation: loading-1 0s linear forwards;
+}
+
+.circleCh__progress.blue .circleCh__progress-left .circleCh__progress-bar {
+  animation: loading-2 0s linear forwards 0s;
+}
+
+@keyframes loading-1 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes loading-2 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(40deg);
+    transform: rotate(40deg);
+  }
+}
